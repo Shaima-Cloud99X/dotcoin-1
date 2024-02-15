@@ -5,16 +5,16 @@ import {useNavigation} from '@react-navigation/native';
 const Splash = () => {
   const navigation = useNavigation();
 
-//   React.useEffect(() => {
-//     const timer = setTimeout(() => {
-//       navigation.navigate('');
-//     }, 2000);
-//   });
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      navigation.navigate('Welcome');
+    }, 2000);
+  });
 
   return (
     <View style={styles.window}>
       <View style={styles.container}>
-        <Text style={styles.textStyle}>Dot Coin</Text>
+        <Text style={styles.textStyle}>Coin Bank</Text>
         <View style={styles.rectangle} />
       </View>
     </View>
