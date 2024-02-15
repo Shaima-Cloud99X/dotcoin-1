@@ -5,8 +5,8 @@ import {useNavigation} from '@react-navigation/native';
 const Welcome = () => {
   const navigation = useNavigation();
 
-  const image = require('../../assets/WelcomeImg.png');
-  const button = require('../../assets/ArrowButton.png');
+  const image = require('../assets/WelcomeImg.png');
+  const button = require('../assets/ArrowButton.png');
 
   return (
     <View style={styles.window}>
