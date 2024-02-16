@@ -35,7 +35,7 @@ const Home = () => {
 
         <TouchableOpacity
           style={styles.tab}
-          onPress={() => navigation.navigate('Preferences')}>
+          onPress={() => navigation.navigate('Profile')}>
           <Image
             source={require('../assets/profile.png')}
             style={styles.icon}

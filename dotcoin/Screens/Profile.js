@@ -197,6 +197,40 @@ const Profile = () => {
         </View>
       </ScrollView>
       {/* <BottomNavBar /> */}
+      <View style={styles.container}>
+        <TouchableOpacity
+          style={styles.tab}
+          onPress={() => navigation.navigate('Home')}>
+          <Image source={require('../assets/HomeW.png')} style={styles.icon} />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.tab}
+          onPress={() => navigation.navigate('Register')}>
+          <Image
+            source={require('../assets/icon.png')}
+            style={styles.icon}
+          />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.tab}
+          onPress={() => navigation.navigate('Register')}>
+          <Image
+            source={require('../assets/Card.png')}
+            style={styles.icon}
+          />
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.tab}
+          onPress={() => navigation.navigate('Profile')}>
+          <Image
+            source={require('../assets/PersonG.png')}
+            style={styles.icon}
+          />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 };
@@ -278,6 +312,30 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     backgroundColor: '#34A853',
     opacity: 0.3,
+  },
+
+
+
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    backgroundColor: '#141416',
+    height: 60,
+     position: 'absolute', 
+     bottom: 0, 
+    left: 0, 
+     right: 0, 
+  },
+  tab: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  icon: {
+    width: 20,
+    height: 20,
+    // tintColor: '#ffffff',
   },
 });
 

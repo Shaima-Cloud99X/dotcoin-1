@@ -11,6 +11,8 @@ import Profile from './Screens/Profile';
 import ForgotPassword from './Screens/ForgotPassword';
 import Home from './Screens/Home';
 import Preferences from './Screens/Preferences';
+import EditInfo from './Screens/EditInfo';
+import InviteFriend from './Screens/InviteFriend';
 
 
 const Stack = createStackNavigator();
@@ -66,6 +68,18 @@ const App = () => {
           component={Preferences}
           options={{headerShown: false}}
         />
+           <Stack.Screen
+          name="EditInfo"
+          component={EditInfo}
+          options={{headerShown: false}}
+        />
+
+<Stack.Screen
+          name="InviteFriend"
+          component={InviteFriend}
+          options={{headerShown: false}}
+        />
+             
                 
 
                 </Stack.Navigator>

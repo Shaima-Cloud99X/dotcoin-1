@@ -30,7 +30,7 @@ const Preferences = () => {
           <View style={styles.item}>
             <Image source={acc} />
             <TouchableOpacity
-              onPress={() => navigation.navigate('Home')}>
+              onPress={() => navigation.navigate('EditInfo')}>
               <Text style={styles.textStyle1}>Account Information</Text>
               <Text style={styles.textStyle2}>
                 Change Your Account Information
@@ -56,7 +56,7 @@ const Preferences = () => {
           <View style={styles.item}>
             <Image source={invite} />
             <TouchableOpacity
-              onPress={() => navigation.navigate('Home')}>
+              onPress={() => navigation.navigate('InviteFriend')}>
               <Text style={styles.textStyle1}>Invite Your Friends</Text>
               <Text style={styles.textStyle2}>Get $3 For Each Invitation</Text>
             </TouchableOpacity>
