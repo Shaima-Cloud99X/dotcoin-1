@@ -19,12 +19,12 @@ const Login = () => {
 
   const back = require('../assets/Back.png');
      const coffeeCircles = require('../assets/CoffeeCircles.png');
-  const emailIcon = require('../assets/Email.png');
-  const lockIcon = require('../assets/Lock.png');
-  const eyeOffIcon = require('../assets/Eye.png');
-  const google = require('../assets/google.png');
-  const apple = require('../assets/Vector.png');
-  const userIcon = require('../assets/User.png');
+  const emailIcon = require('../assets/EmailIcon.png');
+  const lockIcon = require('../assets/LockIcon.png');
+  const eyeOffIcon = require('../assets/EyeOffIcon.png');
+  const google = require('../assets/Google.png');
+  const apple = require('../assets/Apple.png');
+  const userIcon = require('../assets/UserIcon.png');
 //   const userIcon1 = require('../../assets/images/UserIconG.png');
 
   const [email, setEmail] = React.useState('');
