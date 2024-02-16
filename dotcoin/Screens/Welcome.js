@@ -18,7 +18,7 @@ const Welcome = () => {
         </Text>
         <TouchableOpacity
           style={styles.buttonStyle}
-        //   onPress={() => navigation.navigate('Register')}
+          onPress={() => navigation.navigate('Login')}
           >
           <Image source={button} />
         </TouchableOpacity>

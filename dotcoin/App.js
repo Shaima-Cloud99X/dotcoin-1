@@ -3,8 +3,9 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import 'react-native-gesture-handler';
 
-import Splash from './Screens/Splash';
-import Welcome from './Screens/Welcome';
+import Splash from './screens/Splash';
+import Welcome from './screens/Welcome';
+import Login from './screens/Login';
 
 
 const Stack = createStackNavigator();
@@ -21,6 +22,11 @@ const App = () => {
            <Stack.Screen
           name="Welcome"
           component={Welcome}
+          options={{headerShown: false}}
+        />
+          <Stack.Screen
+          name="Login"
+          component={Login}
           options={{headerShown: false}}
         />
                 
