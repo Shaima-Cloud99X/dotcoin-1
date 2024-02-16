@@ -2,6 +2,7 @@ import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
+
 const Splash = () => {
   const navigation = useNavigation();
 
@@ -14,7 +15,7 @@ const Splash = () => {
   return (
     <View style={styles.window}>
       <View style={styles.container}>
-        <Text style={styles.textStyle}>Coin Bank</Text>
+        <Text style={styles.textStyle}>DotCoin</Text>
         <View style={styles.rectangle} />
       </View>
     </View>

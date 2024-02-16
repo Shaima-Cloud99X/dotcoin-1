@@ -2,9 +2,10 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import 'react-native-gesture-handler';
-
+import Register from './Screens/Register';
 import Splash from './Screens/Splash';
 import Welcome from './Screens/Welcome';
+import Verification from './Screens/Verification';
 
 
 const Stack = createStackNavigator();
@@ -21,6 +22,16 @@ const App = () => {
            <Stack.Screen
           name="Welcome"
           component={Welcome}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Register"
+          component={Register}
+          options={{headerShown: false}}
+        />
+          <Stack.Screen
+          name="Verification"
+          component={Verification}
           options={{headerShown: false}}
         />
                 
