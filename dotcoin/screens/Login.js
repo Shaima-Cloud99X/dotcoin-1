@@ -18,7 +18,7 @@ const Login = () => {
   const navigation = useNavigation();
 
   const back = require('../assets/Back.png');
-     const coffeeCircles = require('../assets/CoffeeCircles.png');
+     const coffeeCircles = require('../assets/CoffeeCircles1.png');
   const emailIcon = require('../assets/EmailIcon.png');
   const lockIcon = require('../assets/LockIcon.png');
   const eyeOffIcon = require('../assets/EyeOffIcon.png');
@@ -85,7 +85,7 @@ const Login = () => {
           </View>
           <TouchableOpacity
             style={{alignSelf: 'flex-end', marginBottom: 20}}
-            onPress={() => navigation.navigate('Splash')}>
+            onPress={() => navigation.navigate('ForgotPassword')}>
             <Text style={styles.forgetPassword}>Forget Password ?</Text>
           </TouchableOpacity>
           {/* <TouchableOpacity
@@ -100,7 +100,7 @@ const Login = () => {
             <Text style={[styles.buttonText, {color: '#ACADB9'}]}>
               Create New Account?
             </Text>
-            <TouchableOpacity onPress={() => navigation.navigate('Splash')}>
+            <TouchableOpacity onPress={() => navigation.navigate('ForgotPassword')}>
               <Text style={[styles.buttonText, {color: '#34A853'}]}>
                 Sign Up
               </Text>
