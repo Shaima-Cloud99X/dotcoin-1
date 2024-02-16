@@ -19,6 +19,7 @@ const Welcome = () => {
         <TouchableOpacity
           style={styles.buttonStyle}
           onPress={() => navigation.navigate('Register')}
+        
           >
           <Image source={button} />
         </TouchableOpacity>
