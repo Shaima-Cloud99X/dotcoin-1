@@ -130,7 +130,7 @@ const Register = () => {
                 Already Have An Account?
               </Text>
               <TouchableOpacity 
-            //   onPress={() => navigation.navigate('Login')}
+              onPress={() => navigation.navigate('Login')}
               >
              
                 <Text style={[styles.buttonText, {color: '#34A853'}]}>

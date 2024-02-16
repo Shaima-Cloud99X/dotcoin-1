@@ -12,7 +12,7 @@ const Home = () => {
         <TouchableOpacity
           style={styles.tab}
           onPress={() => navigation.navigate('Home')}>
-          <Image source={require('../assets/Home.png')} style={styles.icon} />
+          <Image source={require('../assets/HomeG.png')} style={styles.icon} />
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   icon: {
     width: 20,
     height: 20,
-    tintColor: '#ffffff',
+    // tintColor: '#ffffff',
   },
 });
 

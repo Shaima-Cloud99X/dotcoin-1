@@ -8,8 +8,8 @@ import Welcome from './Screens/Welcome';
 import Verification from './Screens/Verification';
 import Login from './Screens/Login';
 import Profile from './Screens/Profile';
-import ForgotPassword from './screens/ForgotPassword';
-import Home from './screens/Home';
+import ForgotPassword from './Screens/ForgotPassword';
+import Home from './Screens/Home';
 
 
 const Stack = createStackNavigator();
