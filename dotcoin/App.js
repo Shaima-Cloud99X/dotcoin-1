@@ -2,11 +2,12 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import 'react-native-gesture-handler';
-import Register from './screens/Register';
-import Splash from './screens/Splash';
-import Welcome from './screens/Welcome';
-import Verification from './screens/Verification';
-import Login from './screens/Login';
+import Register from './Screens/Register';
+import Splash from './Screens/Splash';
+import Welcome from './Screens/Welcome';
+import Verification from './Screens/Verification';
+import Login from './Screens/Login';
+import Profile from './Screens/Profile';
 import ForgotPassword from './screens/ForgotPassword';
 import Home from './screens/Home';
 import Preferences from './screens/Preferences';
@@ -36,12 +37,20 @@ const App = () => {
           <Stack.Screen
           name="Verification"
           component={Verification}
+          options={{headerShown: false}}
           />
           <Stack.Screen
           name="Login"
           component={Login}
           options={{headerShown: false}}
         />
+
+<Stack.Screen
+          name="Profile"
+          component={Profile}
+          options={{headerShown: false}}
+          />
+
            <Stack.Screen
           name="ForgotPassword"
           component={ForgotPassword}

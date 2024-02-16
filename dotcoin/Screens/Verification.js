@@ -41,7 +41,7 @@ const [otp1, setOtp1] = React.useState('');
         <View style={styles.imageContainer}>
           <TouchableOpacity
             style={styles.backIcon}
-            // onPress={() => navigation.navigate('PhoneNumber')}
+            onPress={() => navigation.navigate('Register')}
             >
             <Image source={back} />
           </TouchableOpacity>
@@ -49,7 +49,7 @@ const [otp1, setOtp1] = React.useState('');
           <Image source={coffeeCircles} style={{marginTop: -20}} />
         </View>
         <View style={styles.inputContainer}>
-          <Text style={styles.textStyle1}>Verify Phone Number</Text>
+          <Text style={styles.textStyle1}>Verify Your Email</Text>
           <Text style={styles.textStyle2}>
             We Have Sent Code To Your Phone Number
           </Text>
@@ -94,7 +94,7 @@ const [otp1, setOtp1] = React.useState('');
           <View style={{gap: 12}}>
             <TouchableOpacity
               style={styles.buttonStyle}
-              onPress={() => navigation.navigate('Login')}
+              onPress={() => navigation.navigate('Profile')}
               >
               <Text style={styles.buttonText}>Verify</Text>
             </TouchableOpacity>
