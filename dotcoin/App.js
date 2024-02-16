@@ -10,6 +10,7 @@ import Login from './Screens/Login';
 import Profile from './Screens/Profile';
 import ForgotPassword from './Screens/ForgotPassword';
 import Home from './Screens/Home';
+import Preferences from './Screens/Preferences';
 
 
 const Stack = createStackNavigator();
@@ -58,6 +59,11 @@ const App = () => {
           <Stack.Screen
           name="Home"
           component={Home}
+          options={{headerShown: false}}
+        />
+         <Stack.Screen
+          name="Preferences"
+          component={Preferences}
           options={{headerShown: false}}
         />
                 

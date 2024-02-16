@@ -35,7 +35,7 @@ const Home = () => {
 
         <TouchableOpacity
           style={styles.tab}
-          onPress={() => navigation.navigate('Register')}>
+          onPress={() => navigation.navigate('Preferences')}>
           <Image
             source={require('../assets/profile.png')}
             style={styles.icon}
