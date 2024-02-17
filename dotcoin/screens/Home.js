@@ -23,27 +23,11 @@ const Home = () => {
             <Text style = {styles.text2}>BTC</Text>
             </View>
             <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
-            <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
+            <View style = {{marginLeft:20}}>
+            <Text style = {[styles.text3]}>$41,192.14</Text>
             <View style = {{flexDirection:'row', marginLeft:15}}>
             <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
-            </View>
-            </View>
-            </View>
-            <View style={styles.divider} />
-            <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
-            <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
-            <Text style = {styles.text2}>BTC</Text>
-            </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
-            <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
-            <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Text style = {[styles.text4, {color:"#F7931A"}]}>0.55%</Text>
             </View>
             </View>
             </View>
@@ -51,17 +35,17 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Etherium.png')} style = {{width:60, height:60}}  />
             <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
+            <Text style = {styles.text1}>Etherium</Text>
             <Text style = {styles.text2}>BTC</Text>
             </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <Image source={require('../assets/Graph2.png')} style = {{marginTop:20, marginLeft:25,}}  />
             <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
+            <Text style = {[styles.text3, {marginLeft:35}]}>$19,292.16</Text>
             <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Image source={require('../assets/chevron2.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#0CB1A0"}]}>01.87%</Text>
             </View>
             </View>
             </View>
@@ -69,17 +53,17 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Tether.png')} style = {{width:70, height:70}}  />
             <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
+            <Text style = {styles.text1}>Tether</Text>
             <Text style = {styles.text2}>BTC</Text>
             </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <Image source={require('../assets/Graph3.png')} style = {{marginTop:20, marginLeft:25}}  />
             <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
-            <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Text style = {[styles.text3, {marginLeft:65}]}>$625.14</Text>
+            <View style = {{flexDirection:'row', marginLeft:35}}>
+            <Image source={require('../assets/chevron3.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#6CB0FD"}]}>0.55%</Text>
             </View>
             </View>
             </View>
@@ -87,34 +71,17 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Lite.png')} style = {{width:70, height:70}}  />
             <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
+            <Text style = {styles.text1}>Lite</Text>
             <Text style = {styles.text2}>BTC</Text>
             </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <Image source={require('../assets/GraphB.png')} style = {{marginTop:20, marginLeft:25}}  />
             <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
-            <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
-            </View>
-            </View>
-            </View>
-            <View style={styles.divider} />
-
-            <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
-            <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
-            <Text style = {styles.text2}>BTC</Text>
-            </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
-            <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
-            <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Text style = {[styles.text3, {marginLeft:85}]}>$300.16</Text>
+            <View style = {{flexDirection:'row', marginLeft:45}}>
+            <Image source={require('../assets/chevron2.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#0CB1A0"}]}>01.87%</Text>
             </View>
             </View>
             </View>
@@ -122,17 +89,34 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Doge.png')} style = {{width:70, height:70}}  />
             <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
+            <Text style = {styles.text1}>Doge</Text>
             <Text style = {styles.text2}>BTC</Text>
             </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <Image source={require('../assets/Graph4.png')} style = {{marginTop:20, marginLeft:25}}  />
             <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
-            <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Text style = {[styles.text3, {marginLeft:75}]}>$202.14</Text>
+            <View style = {{flexDirection:'row', marginLeft:45}}>
+            <Image source={require('../assets/chevron4.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#C2A633"}]}>0.55%</Text>
+            </View>
+            </View>
+            </View>
+            <View style={styles.divider} />
+
+            <View style = {styles.row}>
+            <Image source={require('../assets/Xrp.png')} style = {{width:70, height:70}}  />
+            <View>
+            <Text style = {styles.text1}>Xrp</Text>
+            <Text style = {styles.text2}>BTC</Text>
+            </View>
+            <Image source={require('../assets/Graph8.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <View>
+            <Text style = {[styles.text3, {marginLeft:90}]}>$500.16</Text>
+            <View style = {{flexDirection:'row', marginLeft:45}}>
+            <Image source={require('../assets/chevron5.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#C2A633"}]}>01.87%</Text>
             </View>
             </View>
             </View>
@@ -140,17 +124,35 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Raven.png')} style = {{width:70, height:70}}  />
             <View>
-            <Text style = {styles.text1}>Bitcoin</Text>
+            <Text style = {styles.text1}>Raven</Text>
             <Text style = {styles.text2}>BTC</Text>
             </View>
-            <Image source={require('../assets/Graph1.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <Image source={require('../assets/Graph5.png')} style = {{marginTop:20, marginLeft:25}}  />
             <View>
-            <Text style = {styles.text3}>$41,192.14</Text>
+            <Text style = {[styles.text3, {marginLeft:75}]}>$635.14</Text>
+            <View style = {{flexDirection:'row', marginLeft:35}}>
+            <Image source={require('../assets/chevron6.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#FF7C74"}]}>0.55%</Text>
+            </View>
+            </View>
+            </View>
+            <View style={styles.divider} />
+
+
+            <View style = {styles.row}>
+            <Image source={require('../assets/Etherium.png')} style = {{width:70, height:70}}  />
+            <View>
+            <Text style = {styles.text1}>Etherium</Text>
+            <Text style = {styles.text2}>BTC</Text>
+            </View>
+            <Image source={require('../assets/Graph6.png')} style = {{marginTop:20, marginLeft:25}}  />
+            <View>
+            <Text style = {[styles.text3, {marginLeft:45}]}>$7000.16</Text>
             <View style = {{flexDirection:'row', marginLeft:15}}>
-            <Image source={require('../assets/chevronOrange.png')} style = {{marginLeft:25, marginTop:2}}  />
-            <Text style = {styles.text4}>0.55%</Text>
+            <Image source={require('../assets/chevron7.png')} style = {{marginLeft:25, marginTop:2}}  />
+            <Text style = {[styles.text4, {color:"#34A853"}]}>01.87%</Text>
             </View>
             </View>
             </View>
