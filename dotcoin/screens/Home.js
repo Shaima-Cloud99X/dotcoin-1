@@ -17,7 +17,7 @@ const Home = () => {
           <Text style= {styles.title2} >Trending</Text>
           <View style = {{marginTop:20}}> 
             <View style = {styles.row}>
-            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/bitcoinIcon.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Bitcoin</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -53,7 +53,7 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Tether.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Tether.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Tether</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -71,7 +71,7 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Lite.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Lite.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Lite</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -89,7 +89,7 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Doge.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Doge.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Doge</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -106,7 +106,7 @@ const Home = () => {
             <View style={styles.divider} />
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Xrp.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Xrp.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Xrp</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -124,7 +124,7 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Raven.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Raven.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Raven</Text>
             <Text style = {styles.text2}>BTC</Text>
@@ -142,7 +142,7 @@ const Home = () => {
 
 
             <View style = {styles.row}>
-            <Image source={require('../assets/Etherium.png')} style = {{width:70, height:70}}  />
+            <Image source={require('../assets/Etherium.png')} style = {{width:60, height:60}}  />
             <View>
             <Text style = {styles.text1}>Etherium</Text>
             <Text style = {styles.text2}>BTC</Text>

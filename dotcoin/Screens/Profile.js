@@ -200,7 +200,7 @@ const Profile = () => {
       <View style={styles.container}>
         <TouchableOpacity
           style={styles.tab}
-          onPress={() => navigation.navigate('Home')}>
+          onPress={() => navigation.navigate('Main')}>
           <Image source={require('../assets/HomeW.png')} style={styles.icon} />
         </TouchableOpacity>
 
