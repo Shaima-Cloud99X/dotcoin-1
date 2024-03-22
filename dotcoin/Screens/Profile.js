@@ -200,13 +200,12 @@ const Profile = () => {
       <View style={styles.container}>
         <TouchableOpacity
           style={styles.tab}
-          onPress={() => navigation.navigate('Main')}>
+          onPress={() => navigation.navigate('Home')}>
           <Image source={require('../assets/HomeW.png')} style={styles.icon} />
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.tab}
-          onPress={() => navigation.navigate('Register')}>
+          style={styles.tab}>
           <Image
             source={require('../assets/icon.png')}
             style={styles.icon}
@@ -214,8 +213,7 @@ const Profile = () => {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.tab}
-          onPress={() => navigation.navigate('Register')}>
+          style={styles.tab}>
           <Image
             source={require('../assets/Card.png')}
             style={styles.icon}

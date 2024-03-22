@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontFamily: 'Poppins-Medium',
     fontSize: 27,
-    marginLeft: 120,
+    marginLeft: 110,
   },
   header: {
     marginTop: 30,

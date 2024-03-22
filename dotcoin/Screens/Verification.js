@@ -94,7 +94,7 @@ const [otp1, setOtp1] = React.useState('');
           <View style={{gap: 12}}>
             <TouchableOpacity
               style={styles.buttonStyle}
-              onPress={() => navigation.navigate('Profile')}
+              onPress={() => navigation.navigate('Home')}
               >
               <Text style={styles.buttonText}>Verify</Text>
             </TouchableOpacity>
